@@ -24,7 +24,6 @@ public class CustomMongoTemplate {
 
     public @Bean
     MongoDbFactory mongoDbFactory() {
-
         if (profile.equals("local")) {
             return new SimpleMongoDbFactory(new MongoClient(), this.db);
         } else {
