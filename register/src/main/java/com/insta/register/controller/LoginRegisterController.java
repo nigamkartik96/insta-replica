@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-//mongo "mongodb+srv://instaproject-s3q76.mongodb.net/test" --username kartik
-
 @RestController
 @Slf4j
 @AllArgsConstructor
